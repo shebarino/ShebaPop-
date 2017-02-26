@@ -31,3 +31,8 @@ Login<br>
 <br>
 Dashboard<br>
 <img src="http://i.imgur.com/VhJ8Lub.png">
+
+
+
+#License
+ShebaPop! is licensed under the MIT licence. Please see the licence file for more information. This means you can do whatever you want, really.
