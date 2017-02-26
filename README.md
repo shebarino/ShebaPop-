@@ -26,8 +26,8 @@ Do whatever the fuck you want with this /shrug
 
 
 # Screenshots
-Login
+Login<br>
 <img src="http://i.imgur.com/C2py1AZ.png">
 <br>
-Dashboard
+Dashboard<br>
 <img src="http://i.imgur.com/VhJ8Lub.png">
