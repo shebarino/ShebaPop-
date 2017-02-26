@@ -3,6 +3,9 @@
 
 **This project uses Hover.css which can be found <a href="https://github.com/IanLunn/Hover">here</a>.**
 <br><br>
+**The guest avatar is from the osu! website, which can be found <a href="https://github.com/ppy/osu-web">here</a>.**
+<br>
+<br>
 
 # Download/Install
 
@@ -12,9 +15,19 @@
 * Load unpacked extension...
 * Select ShebaPop!
 
+
+
 This is still in a very early stage, but will be polished and much better looking once the server itself is set up.
 
 
 **ShebaPop!**  uses **HTML**, **CSS** & **JS**. If you need help with modifying this, look towards learning the simple first. If It's too "hard", you should leave it alone.
 
 Do whatever the fuck you want with this /shrug
+
+
+# Screenshots
+Login
+<img src="http://i.imgur.com/C2py1AZ.png">
+<br>
+Dashboard
+<img src="http://i.imgur.com/VhJ8Lub.png">
