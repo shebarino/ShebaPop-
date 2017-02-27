@@ -1,6 +1,12 @@
 # ShebaPop!
 <font size="3px">The official ShebaBancho Chrome extension!</font>
 
+**What the fuck is the point in this extension?**<br>
+If you just want to be able to navigate through ShebaBancho in a quick and easy way, the extension is for you. It is still a WIP, but I can assure that it will be very simple and fun to navigate through. <br><br>
+
+**I still don't get it. Why not just go to the website? The domain is easy as fuck anyways?**<br>
+idk lol, i sniff socks for a living
+<br><br><br>
 **This project uses Hover.css which can be found <a href="https://github.com/IanLunn/Hover">here</a>.**
 <br><br>
 **The guest avatar is from the osu! website, which can be found <a href="https://github.com/ppy/osu-web">here</a>.**
@@ -24,15 +30,29 @@ This is still in a very early stage, but will be polished and much better lookin
 
 Do whatever the fuck you want with this /shrug
 
-
-# Screenshots
-Login<br>
-<img src="http://i.imgur.com/C2py1AZ.png">
-<br>
-Dashboard<br>
-<img src="http://i.imgur.com/VhJ8Lub.png">
-
-
-
 #License
 ShebaPop! is licensed under the MIT licence. Please see the licence file for more information. This means you can do whatever you want, really.
+
+#Updates
+**27022017**<br>
+Added the redirection for profile stats.
+More terrible code.
+
+<br>
+
+<br>
+
+#TODO
+- [ ] Simple login system with JS (50% done)
+- [ ] Mimic desired login name on dashboard
+- [ ] Allowance to change avatar (local only, for now)
+- [ ] Fix bad code (never going to finish this)
+- [ ] Display **EVEN** more advanced stats
+- [ ] Performance graph (?)
+- [ ] Allow user to connect to IRC through webclient
+- [ ] Friends
+- [ ] Better design
+and a lot more...
+
+
+
