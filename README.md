@@ -17,6 +17,7 @@ idk lol, i sniff socks for a living
 # Download/Install
 
 * <a href="https://github.com/shebarino/ShebaPop-/releases/download/v0.2/ShebaPop.zip">Download .zip</a>
+* Unzip
 * Head over to **chrome://extensions**
 * Tick **Developer mode**
 * Load unpacked extension...
