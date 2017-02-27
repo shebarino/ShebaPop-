@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "ShebaPop!",
-  "description": "The official Chrome extension for ShebaBancho.",
+  "description": "The official Chrome extension for ShebaBanch",
   "version": "1.0",
 
   "browser_action": {

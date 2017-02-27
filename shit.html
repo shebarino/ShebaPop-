@@ -1,8 +1,16 @@
 <!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
 <html>
   <head>
+  <script language="JavaScript" type="text/JavaScript" src="login.js"></script>
+  <link href="css/hover-min.css" rel="stylesheet">
+
     <title>ShebaPop! The official Chrome extension!</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <style>
       @font-face {
     font-family: 'exo2_medium';
@@ -14,6 +22,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 ::-webkit-search-decoration,
 ::-webkit-search-cancel-button,
 ::-webkit-search-results-button,
@@ -41,7 +50,6 @@
         width: 120px;
         -webkit-transition: width 0.4s ease-in-out;
         transition: width 0.4s ease-in-out;
-        padding-left: 5px;
       }
 
       input:focus {
@@ -67,47 +75,58 @@
       }
 
       #uname {
-        background-color: #fff;
-        width: 400px;
-        height: 50px;
-        border:none;
+        margin-bottom: 2%;
       }
 
-      #uname:focus {
-        width: 450px;
+      .imgcontainer {
+          text-align: center;
+          margin: 24px 0 12px 0;
+          margin-bottom: auto;
       }
 
-      #pword {
-      background-color: #fff;
-      width: 400px;
-      height: 50px;
+      img.avatar {
+          width: 25%;
+          border-radius: 50%;
+          -webkit-transition: width 0.1s ease-in-out;
+          transition: width 0.1s ease-in-out;
+          margin-top: -40px;
       }
 
-button {
-    background-color: pink;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    font-family:'exo2_medium';
-}
+      img.avatar:hover {
+          width: 30%;
+          border-radius: 50%;
+      }
 
-input[type="submit"] {
+      .container {
+          padding: 16px;
+      }
+
+      button {
       background-color: pink;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    font-family:'exo2_medium';
-  }
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 65%;
+      font-family:'exo2_medium';
+      -webkit-transition: width 0.1s ease-in-out;
+      transition: width 0.1s ease-in-out;
+       }
+
+       button:hover {
+        width: 100%;
+        -webkit-transition: width 0.1s ease-in-out;
+        transition: width 0.1s ease-in-out;
     </style>
 
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
     <script src="login.js"></script>
-
   </head>
   <body>
     <div id="status"></div>
@@ -116,16 +135,15 @@ input[type="submit"] {
     <div id="bannerdesc"><center><font size="1px">The official Sheba<font color="deeppink">Bancho</font> extension</font></center></div>
     <div id="version"><font size="2px">alpha022617</font></div>
 
-<!-- <form name="loginform" onSubmit="return validateForm();" method="post"> -->
+  <div class="imgcontainer">
+  <center><img src="img_avatar3.png" alt="Avatar" class="avatar"></center></div>
 
-    <label>Username</label>
-    <input type="text" name="usr" placeholder="Enter username" autocomplete="off" style="width: 400px; height: 50px; border: none;"> 
+  <div id="uname"><center>Fuck, wrong username/password.</center></div>
+  <div id="uname"><center>Try again.</center></div>
 
-    <label>Password</label>
-    <input type="password" name="pword" placeholder="Enter password" autocomplete="off" style="width: 400px; height: 50px; border: none;">
-    <a href="dashboard.html"><input type="submit" value="Login"/></a>
+  <center><button type="submit"><a href="popup.html"><font size="3px">Take me back</font></a></button>
+  </center>
 
-</form>
     <img id="image-result" hidden>
   </body>
 </html>
