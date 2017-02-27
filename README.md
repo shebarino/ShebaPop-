@@ -6,7 +6,8 @@ If you just want to be able to navigate through ShebaBancho in a quick and easy 
 
 **I still don't get it. Why not just go to the website? The domain is easy as fuck anyways?**<br>
 idk lol, i sniff socks for a living
-<br><br><br>
+<br><br>
+#^-^
 **This project uses Hover.css which can be found <a href="https://github.com/IanLunn/Hover">here</a>.**
 <br><br>
 **The guest avatar is from the osu! website, which can be found <a href="https://github.com/ppy/osu-web">here</a>.**
