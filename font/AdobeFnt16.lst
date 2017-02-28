@@ -1,0 +1,46 @@
+%!Adobe-FontList 1.16
+%Locale:0x41d
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\jenna\Desktop\ShebaPop!\Font\Exo2-Medium-webfont.eot
+FileModTime:1485961768
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\jenna\Desktop\ShebaPop!\Font\Exo2-Medium-webfont.svg
+FileModTime:1485961768
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:
+FamilyName:Exo 2
+StyleName:Medium
+FullName:.
+MenuName:.
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\jenna\Desktop\ShebaPop!\Font\Exo2-Medium-webfont.ttf
+DataFormat:sfntData
+FileLength:64244
+FileModTime:1485961768
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Exo 2 Medium Regular Webfont
+NameArray:0,Win,1,.
+NameArray:0,Win,16,Exo 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\jenna\Desktop\ShebaPop!\Font\Exo2-Medium-webfont.woff
+FileModTime:1485961768
+%EndFont
+
